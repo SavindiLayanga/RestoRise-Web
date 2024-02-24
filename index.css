@@ -1,0 +1,132 @@
+html{
+    scroll-behavior: smooth;
+}
+/*:root{*/
+/*    --main-color: #fff65d;*/
+/*    --bg-color: black;*/
+/*}*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    color: white;
+    overflow-x: hidden;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    right: 0;
+    left: 0;
+    display: flex;
+    padding: 30px 10%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: #A4907C;
+    height: 20px;
+}
+.nav_bar{
+    position: absolute;
+    right: 600px;
+    top: 0;
+    display: flex;
+}
+.nav_bar ul{
+    list-style: none;
+    padding: 20px;
+    margin: -2px -149px;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    font-family: 'Inika', serif;
+    font-size: 13px;
+}
+.nav_bar li{
+    margin: 0;
+    padding: 10px;
+    transition: transform 0.1s;
+    animation: slide-right-nav 1s ease forwards;
+}
+.nav_bar li:hover{
+    content: '';
+    transform: scale(1.1);
+}
+.nav_bar a{
+    text-decoration: none;
+    color: white;
+}
+.nav_bar a:hover{
+    color: #DDF44C;
+}
+/************************************/
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10% 0;
+    color: #9A98A8;
+    background-size: cover;
+    background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(assets/bg-hero.jpg);
+}
+.welcome{
+    font-size: 45px;
+    margin-left: -35%;
+    color: orange;
+    text-align: center;
+    text-shadow: black;
+}
+.welcome-para{
+    font-size: 18px;
+    color: darkslategray;
+
+}
+.image{
+    background-image: url("");
+    background-size: cover;
+    margin-right: -13%;
+    width: 90vw;
+    height: 106vh;
+}
+.img-cover{
+
+}
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu-item span {
+    flex: 1;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
