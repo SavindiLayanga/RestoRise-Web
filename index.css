@@ -85,13 +85,13 @@ body {
 }
 .welcome-para{
     font-size: 18px;
-    color: darkslategray;
+    color: #9A98A8;
 
 }
 .image{
-    background-image: url("");
+    background-image: url("assets/8e5ba7ec864dcd8d4c2b7183b50e18cd-removebg-preview.png");
     background-size: cover;
-    margin-right: -13%;
+    margin-right: -4%;
     width: 90vw;
     height: 106vh;
 }
